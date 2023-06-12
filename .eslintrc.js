@@ -1,6 +1,10 @@
-// eslint-disable-next-line no-undef
 module.exports = {
     parser: '@typescript-eslint/parser',
+    parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        project: './tsconfig.json',
+    },
     plugins: ['@typescript-eslint'],
     extends: ['airbnb-base', 'airbnb-typescript/base', 'eslint:recommended', 'plugin:@typescript-eslint/recommended'],
     rules: {
