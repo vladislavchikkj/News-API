@@ -1,1 +1,3 @@
-const number: number = 1;
+const arr: number[] = [1, 2, 3, 4, 5];
+
+console.log(arr);
