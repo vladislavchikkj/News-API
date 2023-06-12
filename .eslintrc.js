@@ -9,7 +9,6 @@ module.exports = {
     extends: ['airbnb-base', 'airbnb-typescript/base', 'eslint:recommended', 'plugin:@typescript-eslint/recommended'],
     rules: {
         'import/extensions': 'off',
-        'prettier/prettier': 'error',
         'import/prefer-default-export': 'off',
         '@typescript-eslint/no-explicit-any': 'error',
         '@typescript-eslint/explicit-module-boundary-types': 'error',
